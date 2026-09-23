@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meet Shop - Shop</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container nav">
+        <a href="../index.html" class="logo">Meet<span>Shop</span></a>
+
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="shop.html" class="active">Shop</a>
+            <a href="categories.html">Categories</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="wishlist.html">♡ <span id="wishlistCount">0</span></a>
+            <a href="cart.html">🛒 <span id="cartCount">0</span></a>
+        </div>
+    </div>
+</header>
+
+<main>
+
+<section class="page-banner">
+    <div class="container">
+        <p class="small-title">OUR STORE</p>
+        <h1>Shop Products</h1>
+        <p>Find something perfect for you.</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+
+        <div class="shop-tools">
+
+            <div class="search-box">
+                <input
+                    type="text"
+                    id="searchInput"
+                    placeholder="Search products..."
+                >
+            </div>
+
+            <select id="categoryFilter">
+                <option value="All">All Categories</option>
+                <option value="Fashion">Fashion</option>
+                <option value="Electronics">Electronics</option>
+                <option value="Shoes">Shoes</option>
+                <option value="Accessories">Accessories</option>
+            </select>
+
+            <select id="sortProducts">
+                <option value="default">Sort By</option>
+                <option value="low">Price: Low to High</option>
+                <option value="high">Price: High to Low</option>
+                <option value="name">Name: A-Z</option>
+            </select>
+
+        </div>
+
+        <div class="product-grid" id="shopProducts"></div>
+
+    </div>
+</section>
+
+</main>
+
+<footer class="footer">
+    <div class="container footer-grid">
+
+        <div>
+            <a href="../index.html" class="logo">Meet<span>Shop</span></a>
+            <p>Your simple destination for quality products.</p>
+        </div>
+
+        <div>
+            <h3>Quick Links</h3>
+            <a href="../index.html">Home</a>
+            <a href="shop.html">Shop</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </div>
+
+        <div>
+            <h3>Customer</h3>
+            <a href="cart.html">Cart</a>
+            <a href="wishlist.html">Wishlist</a>
+            <a href="checkout.html">Checkout</a>
+        </div>
+
+        <div>
+            <h3>Contact</h3>
+            <p>Ahmedabad, Gujarat</p>
+            <p>support@meetshop.com</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 MeetShop. All Rights Reserved.</p>
+    </div>
+</footer>
+
+<script src="../js/script.js"></script>
+</body>
+</html>
